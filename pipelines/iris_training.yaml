@@ -16,7 +16,7 @@ metadata:
     ai.sap.com/version: "1.0"
 spec:
   imagePullSecrets:
-    - name: milton-credentials # your docker registry secret
+    - name: irisaitrainingimage # your docker registry secret
   entrypoint: mypipeline
   arguments:
     parameters: # placeholder for string like inputs
